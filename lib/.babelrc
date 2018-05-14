@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-regenerator",
+    "transform-class-properties",
+    "transform-es2015-destructuring",
+    "transform-es2015-arrow-functions"
+  ],
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "node": "8.6.0"
+        }
+      }
+    ]
+  ],
+  "ignore": [
+    "node_modules/**/*.js"
+  ]
+}

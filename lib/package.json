@@ -1,0 +1,50 @@
+{
+  "name": "iflix_test",
+  "version": "1.0.0",
+  "description": "iflix Coding Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "start": "babel-node ./src/server.js",
+    "run": "babel-node ./src/script.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jsonschema": "^1.2.4",
+    "merge-stream": "^1.0.1",
+    "moment": "^2.22.1",
+    "node-fetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.1.1",
+    "babel-istanbul": "^0.6.0",
+    "babel-plugin-syntax-async-functions": "^6.5.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.1.18",
+    "babel-plugin-transform-async-to-generator": "^6.5.0",
+    "babel-plugin-transform-class-properties": "^6.6.0",
+    "babel-plugin-transform-object-rest-spread": "^6.1.18",
+    "babel-plugin-transform-regenerator": "^6.5.2",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^2.1.2",
+    "eslint": "^3.17.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-babel-istanbul": "^0.11.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-istanbul-enforcer": "^1.0.3",
+    "gulp-mocha": "^2.0.0",
+    "mocha": "^2.2.1",
+    "mock-fs": "^4.5.0",
+    "proxyquire": "^2.0.1",
+    "require-dir": "^0.3.2",
+    "sinon": "^1.17.5",
+    "supertest": "^3.0.0",
+    "test-console": "^1.1.0"
+  }
+}
