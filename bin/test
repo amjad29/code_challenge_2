@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ..
+cd lib
+npm install
+npm test 
+
+echo "You test me"

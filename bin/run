@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ..
+cd lib
+npm install
+npm start
+npm run-script run
+echo "You complete me"
